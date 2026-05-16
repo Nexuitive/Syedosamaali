@@ -223,25 +223,31 @@ export default function Home() {
               className="bg-[#0B0B12] border border-white/10 rounded-[40px] p-8 md:p-10 backdrop-blur-xl hover:border-purple-500/40 transition-all duration-500"
             >
 
-              <div className="flex items-center gap-5 mb-8">
+              <div className="flex items-center gap-3 sm:gap-4 mb-8">
 
-                <div className="w-20 h-20 rounded-[24px] flex items-center justify-center text-4xl bg-purple-600/20 text-purple-400 border border-white/10">
-                  <FaCode />
-                </div>
+  <div className="w-[58px] h-[58px] min-w-[58px] rounded-2xl flex items-center justify-center text-2xl bg-purple-600/20 text-purple-400 border border-white/10">
 
-                <div>
+    <FaCode />
 
-                  <h3 className="text-3xl md:text-4xl font-bold">
-                    Development
-                  </h3>
+  </div>
 
-                  <p className="text-gray-400 mt-1">
-                    Modern Digital Solutions
-                  </p>
+  <div className="flex-1">
 
-                </div>
+    <h3 className="text-[22px] sm:text-[28px] md:text-[34px] font-bold leading-tight">
 
-              </div>
+      Development
+
+    </h3>
+
+    <p className="text-gray-400 mt-1 text-xs sm:text-sm">
+
+      Modern Digital Solutions
+
+    </p>
+
+  </div>
+
+</div>
 
               <div className="flex flex-wrap gap-4">
 
@@ -274,25 +280,31 @@ export default function Home() {
               className="bg-[#0B0B12] border border-white/10 rounded-[40px] p-8 md:p-10 backdrop-blur-xl hover:border-cyan-500/40 transition-all duration-500"
             >
 
-              <div className="flex items-center gap-5 mb-8">
+              <div className="flex items-center gap-3 sm:gap-4 mb-8">
 
-                <div className="w-20 h-20 rounded-[24px] flex items-center justify-center text-4xl bg-cyan-600/20 text-cyan-400 border border-white/10">
-                  <FaRobot />
-                </div>
+  <div className="w-[58px] h-[58px] min-w-[58px] rounded-2xl flex items-center justify-center text-2xl bg-cyan-600/20 text-cyan-400 border border-white/10">
 
-                <div>
+    <FaRobot />
 
-                  <h3 className="text-3xl md:text-4xl font-bold">
-                    AI & Automation
-                  </h3>
+  </div>
 
-                  <p className="text-gray-400 mt-1">
-                    Smart AI Systems
-                  </p>
+  <div className="flex-1">
 
-                </div>
+    <h3 className="text-[22px] sm:text-[28px] md:text-[34px] font-bold leading-tight">
 
-              </div>
+      AI & Automation
+
+    </h3>
+
+    <p className="text-gray-400 mt-1 text-xs sm:text-sm">
+
+      Smart AI Systems
+
+    </p>
+
+  </div>
+
+</div>
 
               <div className="flex flex-wrap gap-4">
 
@@ -323,26 +335,31 @@ export default function Home() {
               className="bg-[#0B0B12] border border-white/10 rounded-[40px] p-8 md:p-10 backdrop-blur-xl hover:border-green-500/40 transition-all duration-500"
             >
 
-              <div className="flex items-center gap-5 mb-8">
+              <div className="flex items-center gap-3 sm:gap-4 mb-8">
 
-                <div className="w-20 h-20 rounded-[24px] flex items-center justify-center text-4xl bg-green-600/20 text-green-400 border border-white/10">
-                  <FaChartLine />
-                </div>
+  <div className="w-[58px] h-[58px] min-w-[58px] rounded-2xl flex items-center justify-center text-2xl bg-green-600/20 text-green-400 border border-white/10">
 
-                <div>
+    <FaChartLine />
 
-                  <h3 className="text-3xl md:text-4xl font-bold">
-                    Marketing & SEO
-                  </h3>
+  </div>
 
-                  <p className="text-gray-400 mt-1">
-                    Growth Strategies
-                  </p>
+  <div className="flex-1">
 
-                </div>
+    <h3 className="text-[22px] sm:text-[28px] md:text-[34px] font-bold leading-tight">
 
-              </div>
+      Marketing & SEO
 
+    </h3>
+
+    <p className="text-gray-400 mt-1 text-xs sm:text-sm">
+
+      Growth Strategies
+
+    </p>
+
+  </div>
+
+</div>
               <div className="flex flex-wrap gap-4">
 
                 {[
@@ -372,25 +389,31 @@ export default function Home() {
               className="bg-[#0B0B12] border border-white/10 rounded-[40px] p-8 md:p-10 backdrop-blur-xl hover:border-pink-500/40 transition-all duration-500"
             >
 
-              <div className="flex items-center gap-5 mb-8">
+              <div className="flex items-center gap-3 sm:gap-4 mb-8">
 
-                <div className="w-20 h-20 rounded-[24px] flex items-center justify-center text-4xl bg-pink-600/20 text-pink-400 border border-white/10">
-                  <FaPalette />
-                </div>
+  <div className="w-[58px] h-[58px] min-w-[58px] rounded-2xl flex items-center justify-center text-2xl bg-pink-600/20 text-pink-400 border border-white/10">
 
-                <div>
+    <FaPalette />
 
-                  <h3 className="text-3xl md:text-4xl font-bold">
-                    Branding & Design
-                  </h3>
+  </div>
 
-                  <p className="text-gray-400 mt-1">
-                    Creative Brand Identity
-                  </p>
+  <div className="flex-1">
 
-                </div>
+    <h3 className="text-[22px] sm:text-[28px] md:text-[34px] font-bold leading-tight">
 
-              </div>
+      Branding & Design
+
+    </h3>
+
+    <p className="text-gray-400 mt-1 text-xs sm:text-sm">
+
+      Creative Brand Identity
+
+    </p>
+
+  </div>
+
+</div>
 
               <div className="flex flex-wrap gap-4">
 
@@ -579,18 +602,6 @@ export default function Home() {
 
               {/* Contact Details */}
               <div className="mt-10 flex flex-col gap-4 text-lg">
-
-                <a
-                  href="https://wa.me/923343447256"
-                  target="_blank"
-                  className="hover:text-purple-400 transition-all duration-300"
-                >
-                  📱 WhatsApp: 03343447256
-                </a>
-
-                <p className="text-gray-400">
-                  📍 Karachi, Pakistan
-                </p>
 
               </div>
 
